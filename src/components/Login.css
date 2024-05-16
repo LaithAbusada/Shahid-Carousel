@@ -1,0 +1,98 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.login-form input,
+.login-form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.login-form input:focus,
+.login-form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+
+.login-form input::placeholder,
+.login-form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.login-form input:focus::placeholder,
+.login-form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+
+.login-form button {
+  width: 100%;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border-radius: 30px;
+}
+.login-form button span {
+  z-index: 1;
+  position: relative;
+}
+.login-form button:hover {
+  color: #fff;
+  border-radius: 30px;
+}
+.login-form button::before {
+  content: "";
+  background: #0bc191;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+  border-radius: 30px;
+}
+.login-form button:hover::before {
+  width: 100%;
+}

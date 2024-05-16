@@ -1,0 +1,34 @@
+.movie-card {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1; /* Set z-index to keep the card on top */
+}
+
+.movie-card:hover {
+  transform: scale(1.3);
+  z-index: 2; /* Increase z-index on hover to keep the card on top of other elements */
+}
+
+.movie-card:hover .movie-info {
+  opacity: 1;
+  transform: translateY(0); /* Move info box back to its original position */
+}
+
+/* Disable hover effect on touch devices */
+@media (pointer: coarse) {
+  .movie-card:hover {
+    transform: none;
+    z-index: 1;
+  }
+
+  .movie-card:hover .movie-info {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Disable hover colors for arrow buttons */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    opacity: 1;
+  }
+}

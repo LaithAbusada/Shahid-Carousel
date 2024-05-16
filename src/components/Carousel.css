@@ -1,0 +1,67 @@
+.swiper {
+  height: 350px;
+}
+
+@media only screen and (min-width: 80em) {
+  .swiper {
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 80em) {
+  .swiper {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 48em) {
+  .swiper {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .swiper {
+    height: 250px;
+  }
+}
+
+.slide {
+  padding: 80px;
+  position: relative;
+  top: 150px;
+}
+
+/* In your CSS file */
+/* Change arrow button colors */
+.swiper-button-next,
+.swiper-button-prev {
+  background-position: center;
+  background-position: center; /* Center background image */
+  color: white; /* Change to the desired color */
+  position: absolute; /* Position relative to swiper container */
+  top: 50%; /* Position vertically at 50% of the swiper container */
+  transform: translateY(-50%); /* Adjust vertically to center */
+  z-index: 10; /* Ensure buttons stay on top of other elements */
+}
+
+/* Change arrow button hover colors */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 0.5; /* Change to the desired hover color */
+}
+
+.movie-card {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1; /* Set z-index to keep the card on top */
+}
+
+.movie-card:hover {
+  transform: scale(1.3);
+  z-index: 2; /* Increase z-index on hover to keep the card on top of other elements */
+}
+
+.movie-card:hover .movie-info {
+  opacity: 1;
+  transform: translateY(0); /* Move info box back to its original position */
+}
