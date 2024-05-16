@@ -28,7 +28,7 @@ function Header() {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/" className="title" title="Home Page">
         <h1>
           {" "}
           Welcome <span>{user ? user : "to Shahid"}</span>{" "}
@@ -41,7 +41,9 @@ function Header() {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" title="Home Page">
+            Home
+          </NavLink>
         </li>
         {user ? (
           <li>
@@ -51,7 +53,9 @@ function Header() {
           </li>
         ) : (
           <li>
-            <NavLink to="/login">Login</NavLink>
+            <NavLink to="/login" title="Login Page">
+              Login
+            </NavLink>
           </li>
         )}
       </ul>

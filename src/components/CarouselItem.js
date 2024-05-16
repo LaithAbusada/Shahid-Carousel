@@ -10,7 +10,11 @@ const CarouselItem = ({
 }) => {
   return (
     <div className="movie-card">
-      <Link to={`/movie/${movie.item.id}`} style={{ textDecoration: "none" }}>
+      <Link
+        to={`/movie/${movie.item.id}`}
+        style={{ textDecoration: "none" }}
+        title={movie.item.title}
+      >
         <img
           src={movie.item.image.thumbnailImage}
           alt="Movie"
