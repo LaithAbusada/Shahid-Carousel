@@ -6,11 +6,11 @@ Create a **React application** that is intuitive and demonstrates proficiency in
 
 ## Core Features
 
-- **Data Source Setup**: Generate an API endpoint using Mocky with the provided JSON.
-- **Application Loading**: Implement a loading skeleton similar to the Shahid homepage.
+- **Data Source Setup**: API endpoint using Mocky with the provided JSON.
+- **Application Loading**: loading skeleton similar to the Shahid homepage.
 - **Carousel Feature**: Develop a carousel feature with similar design, functionality, and hover effects as Shahid's.
 - **Detail Page Navigation**: Redirect to a detail page showing metadata of the selected show/movie on click of a carousel item.
-- **Authentication**: Implement a login page with email and password authentication, session management using localStorage, and a logout feature.
+- **Authentication**: Login page with email and password authentication, session management using localStorage, and a logout feature.
 - **UI Design**: Creative design of headers, footers, etc., without mirroring Shahid's design.
 - **SEO and Performance**: Ensure SEO-friendly detail pages and focus on performance optimization.
 - **Code Structure and Reusability**: Single responsibility for each function/component and reusability in methods and components.
