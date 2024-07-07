@@ -18,23 +18,24 @@ Create a **React application** that is intuitive and demonstrates proficiency in
 
 ## Installation
 
-1. Clone the repository:
-   \`\`\`bash
-   git clone 
-   \`\`\`
-2. Navigate to the project directory:
-   \`\`\`bash
-   cd  
-   \`\`\`
-3. Install dependencies:
-   \`\`\`bash
-   npm install
-   \`\`\`
-4. Start the development server:
-   \`\`\`bash
-   npm start
-   \`\`\`
+## Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LaithAbusada/Shahid-Carousel.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Shahid-Carousel
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 ## Usage
 
 - Enter your **email** and **password** to login.
@@ -44,8 +45,13 @@ Create a **React application** that is intuitive and demonstrates proficiency in
 - **Logout** to end the session.
 
 ## Screenshot
+![image](https://github.com/LaithAbusada/Shahid-Carousel/assets/116557112/eb0cd617-ead3-4fe0-9843-849208882330)
 
-![Application Screenshot](path_to_your_image)
+![image](https://github.com/LaithAbusada/Shahid-Carousel/assets/116557112/06977686-e4e1-4817-8104-c3e259ee2d52)
+
+
+![image](https://github.com/LaithAbusada/Shahid-Carousel/assets/116557112/ee174ae6-e525-4c70-bd83-69ca06e9a400)
+
 
 ## License
 
