@@ -15,7 +15,7 @@ const MoviePage = () => {
     const fetchMovie = async () => {
       try {
         const response = await fetch(
-          "https://run.mocky.io/v3/227a53a3-8004-4c54-8155-0f14e6714409"
+          "https://run.mocky.io/v3/52279fd8-4443-44d7-b938-fe0fb6b4b2ff"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch movie data");

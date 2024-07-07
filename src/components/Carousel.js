@@ -17,7 +17,7 @@ function Carousel() {
   const [selectedMovie, setSelectedMovie] = useState(null); // State to track selected movie
 
   useEffect(() => {
-    fetch("https://run.mocky.io/v3/227a53a3-8004-4c54-8155-0f14e6714409")
+    fetch("https://run.mocky.io/v3/52279fd8-4443-44d7-b938-fe0fb6b4b2ff")
       .then((res) => res.json())
       .then((data) => {
         const items = data.editorialItems;
